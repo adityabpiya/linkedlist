@@ -9,7 +9,7 @@ end
 
 def print_values(list_node)
     if list_node #gives node3
-        print "#{list_node.value} --> " #gives node3 value which is 12
+        print "#{list_node.value} --> " #if theres a list node, it will give its value (here its node 3 and gives 12)
         print_values(list_node.next_node) #directs it towards next node which is node 2 here
     else 
         print "nil\n"
